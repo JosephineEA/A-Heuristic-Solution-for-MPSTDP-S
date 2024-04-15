@@ -1,4 +1,4 @@
-这个项目是我在爱丁堡大学读硕士期间的毕业论文项目，主要目的是针对Multi-Period Service Territory Design Problem的Schedule部分剔除一种启发式算法来求解。
+这个项目是我在爱丁堡大学读硕士期间的毕业论文项目，主要目的是针对Multi-Period Service Territory Design Problem的Schedule部分提出一种启发式算法来求解。
 
 根据业务需要，我们将客户分为若干组，同时考虑组内成员的距离以及组与组之间工作量的平衡，在此思路上建模，并为这个模型的解题提出了一种全新的启发式算法。这个算法包括initialize部分和improve部分。在improve部分中，我们又分别测试了relaxing和adjusting两种方法。结果表明，相比于直接对问题进行求解，使用启发式算法和其中的relaxing方法改善时，可以在有效减少计算时间的同时,将与最优值的gap缩小到5%以下。具体的介绍、内容、数学模型和结果见**A Heuristic Solution for MPSTDP-S.pdf**。
 
